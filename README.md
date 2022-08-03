@@ -1,4 +1,4 @@
 ## The spatiotemporal Coupling in Delay-coordinates Dynamic Mode Decomposition
-The MATLAB code in this repository creates the figures presented in the Section VI (Illustrative Example) using Algorithm 1 (Proposed Algorithm).
+The MATLAB code in this repository presents the results of Section VI (Illustrative Example) by executing Algorithm 1 (Proposed Algorithm).
 
 The code was developed by ...
