@@ -155,8 +155,8 @@ legend('True','Spurious','interpreter','latex','FontSize',font,'location','east'
 % ----- Figure 3 in the paper ----- %
 
 l = diag(lambda_tilde_avg(ind(idx == idx_true))); % the true averaged computed eigenvalues in Eq. (46) in the paper
-p = phi(1:length(l),ind(idx == idx_true)); % the true zeroth sub-modes in Eq. (46) in the paper
-x0 = X(1:length(l),1); % the relevant initial observations
+p = phi(:,ind(idx == idx_true)); % the true zeroth sub-modes in Eq. (46) in the paper
+x0 = X(:,1); % the relevant initial observations
 sigma0 = p\x0; % \sigma_l in Eq. (46) in the paper
 
 % reconstruction of the observations according to Eq. (46) in the paper
